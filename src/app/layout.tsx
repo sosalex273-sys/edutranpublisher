@@ -9,17 +9,17 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Triaksara Publisher - Premium Publishing Company",
+  title: "Edutran Publisher - Premium Publishing Company",
   description: "Layanan publikasi jurnal, buku, dan HKI profesional terbaik.",
-  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "Triaksara Publisher"],
-  authors: [{ name: "Triaksara Publisher" }],
+  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "Edutran Publisher"],
+  authors: [{ name: "Edutran Publisher" }],
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://triaksarapublisher.id",
-    title: "Triaksara Publisher - Premium Publishing",
+    url: "https://edutranpublisher.id",
+    title: "Edutran Publisher - Premium Publishing",
     description: "Layanan publikasi terbaik untuk kebutuhan akademik dan profesional.",
-    siteName: "Triaksara Publisher",
+    siteName: "Edutran Publisher",
   },
   robots: {
     index: true,

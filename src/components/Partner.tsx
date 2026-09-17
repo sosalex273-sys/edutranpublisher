@@ -12,7 +12,7 @@ export const Partner = () => {
   ];
 
   return (
-    <section className="py-10 bg-white border-y border-slate-100 overflow-hidden">
+    <section className="py-10 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <p className="text-center text-sm font-semibold text-slate-400 mb-6 uppercase tracking-wider">
           Dipercaya oleh Dosen & Peneliti dari
@@ -25,7 +25,7 @@ export const Partner = () => {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="text-lg md:text-xl font-bold font-jakarta text-slate-700"
+              className="text-lg md:text-xl font-bold font-jakarta text-slate-700 dark:text-slate-300"
             >
               {partner}
             </motion.div>

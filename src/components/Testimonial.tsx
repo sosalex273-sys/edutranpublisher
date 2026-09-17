@@ -29,26 +29,26 @@ export const Testimonial = () => {
             <div className="flex -ml-4">
               {testimonials.map((testi) => (
                 <div key={testi.id} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-4">
-                  <Card className="h-full border-none shadow-md hover:shadow-lg transition-shadow bg-white">
+                  <Card className="h-full border border-slate-100 dark:border-slate-800 shadow-md hover:shadow-lg transition-shadow bg-white dark:bg-slate-900">
                     <CardContent className="p-8 relative">
-                      <Quote className="absolute top-6 right-8 text-primary/10 h-16 w-16" />
+                      <Quote className="absolute top-6 right-8 text-sky-500/10 h-16 w-16" />
                       <div className="flex items-center gap-1 mb-6 text-yellow-400">
                         {[...Array(testi.rating)].map((_, i) => (
                           <Star key={i} className="h-5 w-5 fill-current" />
                         ))}
                       </div>
-                      <p className="text-slate-700 mb-8 relative z-10 leading-relaxed italic">
+                      <p className="text-slate-700 dark:text-slate-200 mb-8 relative z-10 leading-relaxed italic">
                         "{testi.content}"
                       </p>
                       <div className="flex items-center gap-4">
                         <img 
                           src={testi.image} 
                           alt={testi.name} 
-                          className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
+                          className="w-12 h-12 rounded-full object-cover border-2 border-sky-500/20"
                         />
                         <div>
-                          <h4 className="font-bold text-slate-900 font-jakarta">{testi.name}</h4>
-                          <p className="text-sm text-slate-500">{testi.role}</p>
+                          <h4 className="font-bold text-slate-900 dark:text-white font-jakarta">{testi.name}</h4>
+                          <p className="text-sm text-slate-500 dark:text-slate-400">{testi.role}</p>
                         </div>
                       </div>
                     </CardContent>
